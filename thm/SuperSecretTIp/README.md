@@ -2,7 +2,7 @@
 
 https://tryhackme.com/room/supersecrettip
 
-## Reconnaissance
+## Enumeration
 
 The first step is to perform basic enumeration using Nmap. 
 
@@ -29,7 +29,6 @@ PORT     STATE SERVICE VERSION
 |     Server: Werkzeug/2.3.4 Python/3.11.0
 ...
 ```
-## Enumeration
 ```
 $ gobuster -u http://<target ip>:7777 -w ~/Downloads/wordlists/common.txt
 /debug (Status: 200)
